@@ -277,10 +277,13 @@ textarea {
 }
 
 .chat {
-  height: calc(100vh - 64px - 70px);
+  height: calc(100vh - 130px - 70px);
   padding: 25px;
   background-color: rgb(109, 56, 110);
   overflow: auto;
+  position: fixed;
+  bottom: 80px;
+  width: 70%;
 }
 
 .chat__item {
